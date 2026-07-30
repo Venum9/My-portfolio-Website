@@ -1,14 +1,18 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Stats from "./components/Stats";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-slate-950">
+    <>
       <Navbar />
       <Hero />
+      <Stats />
       <About />
-    </div>
+      <Skills />
+    </>
   );
 }
 
